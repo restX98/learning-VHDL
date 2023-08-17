@@ -6,11 +6,11 @@ end TB_Mult2x2;
 
 architecture Beh of TB_Mult2x2 is
     component Mux2x1 is
-         port (
-        a, b: in bit;
-        s: in bit;
-        z: out bit
-    );
+        port (
+            a, b: in bit;
+            s: in bit;
+            z: out bit
+        );
     end component;
     signal a, b, s, z: bit;
 begin

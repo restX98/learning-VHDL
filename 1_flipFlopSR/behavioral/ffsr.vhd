@@ -10,7 +10,6 @@ entity ffsr is
 end ffsr;
 
 architecture Beh of ffsr is
-
 begin
 	qn <= NOT (s OR q);
     q <= NOT (r OR qn);

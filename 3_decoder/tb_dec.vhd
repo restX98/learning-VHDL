@@ -7,9 +7,9 @@ end TB_Dec;
 architecture Beh of TB_Dec is
     component Decoder2x4 is
         port (
-            i : in std_logic_vector(1 downto 0);
+            i: in std_logic_vector(1 downto 0);
             en: in std_logic;
-            q : out std_logic_vector( 0 to 3)
+            q: out std_logic_vector( 0 to 3)
         );
     end component;
     signal i: std_logic_vector(1 downto 0);

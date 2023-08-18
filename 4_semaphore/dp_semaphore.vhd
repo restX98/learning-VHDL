@@ -9,9 +9,9 @@ entity dp_semaphore is
 end dp_semaphore;
 
 architecture Beh of dp_semaphore is
-    signal theshold : integer range 0 to 50;
-    signal newCount : integer range 0 to 50;
-    signal count : integer range 0 to 50;
+    signal theshold: integer range 0 to 50;
+    signal newCount: integer range 0 to 50;
+    signal count: integer range 0 to 50;
 begin
 
     theshold <= 9 when selCount='0' else 49;

@@ -11,7 +11,7 @@ architecture Beh of TB_ffsr is
             q, qn: inout bit
         );
     end component;
-    signal s, r, q, qn : bit;
+    signal s, r, q, qn: bit;
 begin
     dut: ffsr port map(s, r, q, qn);
 														  

@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity ffsr is
     port (
-        s, r : in bit;
+        s, r: in bit;
         q: buffer bit := '0';
 		qn: buffer bit := '1'
     );

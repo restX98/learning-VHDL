@@ -13,7 +13,7 @@ component And4 is
     );		
 end component;
 
-signal a, b, c, d, q : std_logic;
+signal a, b, c, d, q: std_logic;
 
 begin
 	dut: And4 port map(a, b, c, d, q);
